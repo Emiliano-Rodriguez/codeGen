@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rand_backspace=$(echo "1 + $RANDOM % 501 / 100" | bc)
-filename="/Users/emiliano/codegenerator/generate.code"
+filename="generate.code"
 
 line_count=0
 while read -r line; do
